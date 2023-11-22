@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!----------------------------CSS link---------------------------->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <button class="start-btn">Search city</button>
+    <main class="container">
+        <div class="search-box">
+            <input type="text" placeholder="Enter city name">
+            <button>
+                <img src="assets/images/search.png" alt="Seach image">
+            </button>
+        </div><!--end search box-->
+        <p class="invalid">Invalid city name</p>
+        <p class="empty">Enter city name</p>
+        <div class="weather">
+            <img src="" class="weather-icon" alt="Icon">
+            <h1 class="temp"></h1>
+            <div class="city-box">
+                <h2 class="city"></h2>
+                <h3 class="country"></h3>
+            </div><!--end city box-->
+            <div class="details">
+                <div class="col">
+                    <img src="assets/images/humidity.png" alt="Snow image">
+                    <div>
+                        <p class="humidity"></p>
+                        <p>Humidity</p>
+                    </div>
+                </div><!--end col-->
+                <div class="col">
+                    <img src="assets/images/wind.png" alt="Wind image">
+                    <div>
+                        <p class="wind">p>
+                        <p>Wind speed</p>
+                    </div>
+                </div><!--end col-->
+            </div><!--end details-->
+        </div><!--end weather-->
+    </main><!--end container-->
+    <!----------------------------JavaScript link---------------------------->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
